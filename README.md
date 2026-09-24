@@ -1,4 +1,4 @@
-﻿# FBiT: A Coordination Forecasting Bidirectional Topology Factored Framework For Supply Chains
+﻿# FBiT: A Bidirectional Topology-Factored Reinforcement Learning Framework with Coordination Demand Forecasting for Supply Chain Control
 
 ## Repository structure
 
