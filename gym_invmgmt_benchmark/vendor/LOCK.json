@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/r2barati/gym-invmgmt-paper",
+  "commit": "0ec993a9dad0dd220787e77e77868d10ad5ab799",
+  "artifacts": {
+    "gym_invmgmt_paper/results/benchmark_final_merged.csv": "0a1cc9896f94365523e34cad12635fac6cc9d26c9ea3d3dad2669847e17313a7",
+    "gym_invmgmt_paper/results/manifest.json": "0b790b0f1e0e0c7eaaaee382def22ab12c3f80cdd2502accd934a48271aa51f5",
+    "gym_invmgmt_paper/results/m5_window_metadata.json": "85000a5fd91b0ed2b4cb9dbeb9efdb6ce78c305960ab1b7f7692801da04967d9"
+  }
+}

@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fbit-gym-invmgmt"
+version = "0.1.0"
+description = "Blind FBiT generalist adapted to the gym-invmgmt paper benchmark"
+requires-python = ">=3.9"
+dependencies = [
+  "gymnasium",
+  "networkx",
+  "numpy",
+  "pandas",
+  "PyYAML",
+  "scipy",
+  "torch",
+  "torch-geometric",
+  "tensorboard",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+aligned-blind = ["stable-baselines3", "pulp"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fbit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "slow: CPU training/evaluation smoke tests",
+]

@@ -69,6 +69,11 @@ Notes:
 - The environment is registered in `supply_chain_env/__init__.py` with id `SupplyChainG-v0`.
 - Checkpointing and TensorBoard logs are written under `results/.../learn*/`.
 
+## Evaluation on gym-invmgmt
+
+Code for integrating and evaluating FBiT on the external `gym-invmgmt`
+benchmark is available in [`gym_invmgmt_benchmark/`](gym_invmgmt_benchmark/).
+
 ## Troubleshooting
 
 - If GPU is available but not used, verify your PyTorch CUDA installation matches your driver/CUDA runtime.

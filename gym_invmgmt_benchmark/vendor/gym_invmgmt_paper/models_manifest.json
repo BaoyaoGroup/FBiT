@@ -1,0 +1,375 @@
+{
+  "repo_id": "rezabarati/gym-invmgmt-weights",
+  "repo_type": "dataset",
+  "created_utc": "2026-05-04T18:10:47Z",
+  "source": "gym-invmgmt-release-draft/data/models",
+  "scope": "Trained SB3/PPO/SAC/IL agent checkpoints and VecNormalize statistics only.",
+  "excluded": [
+    "qwen2.5-1.5b-instruct-q4_k_m.gguf (third-party LLM weight; not re-hosted here)",
+    "data/external public retail datasets (download separately via scripts/data/download_public_retail_datasets.py)"
+  ],
+  "file_count": 72,
+  "total_bytes": 124774500,
+  "files": [
+    {
+      "path": "data/models/gnn-v3_base.zip",
+      "bytes": 7395416,
+      "sha256": "3eca4fa90236d16d58d68623e4c14d917352c74d65e98a94330a2b9a4983c96a"
+    },
+    {
+      "path": "data/models/gnn-v3_base_blind.zip",
+      "bytes": 7395426,
+      "sha256": "17b3a74a7b7ddade56ecc1ef978614dbe206045d8966de8d61c5f01b16eb8adc"
+    },
+    {
+      "path": "data/models/gnn-v3_base_blind_vecnorm.pkl",
+      "bytes": 6958,
+      "sha256": "72099ca6ecf3ce4959c859e3cba7c550f0a434e0c498bf14d888148dfb2c0e67"
+    },
+    {
+      "path": "data/models/gnn-v3_base_vecnorm.pkl",
+      "bytes": 6958,
+      "sha256": "473240532303414a0de91c26bd3d0869c54ebbf49a30cf5c9e17c5870f20cd9e"
+    },
+    {
+      "path": "data/models/gnn-v3_serial.zip",
+      "bytes": 6025672,
+      "sha256": "f8048d8400b807006ea6f7a8ea8a23a6850b5b13e4d7a0f34ade62519856f784"
+    },
+    {
+      "path": "data/models/gnn-v3_serial_blind.zip",
+      "bytes": 6025682,
+      "sha256": "3c7cfee39cc12ff4d00928ad0aece0d92764d6ebebdb8f0de4dd8d855df52cf3"
+    },
+    {
+      "path": "data/models/gnn-v3_serial_blind_vecnorm.pkl",
+      "bytes": 3454,
+      "sha256": "f28cbc3386eba84df28507030c15360ee069fef999ce72039255410037dc6873"
+    },
+    {
+      "path": "data/models/gnn-v3_serial_vecnorm.pkl",
+      "bytes": 3454,
+      "sha256": "0dd1a63da6bd1961cff7a366148b4982703dc8417f31ad3e3a8c1dc1d61f0640"
+    },
+    {
+      "path": "data/models/m5-ppo-mlp_base.zip",
+      "bytes": 1648118,
+      "sha256": "b95ce5631fa03c71710ca29b09fd61469b25b853e3c0a3b880f03a1ce3585fe6"
+    },
+    {
+      "path": "data/models/m5-ppo-mlp_base_vecnorm.pkl",
+      "bytes": 6958,
+      "sha256": "6852c7df4fbfb88ef310d789f5d583e7e7e13c828c7df4b5e6668f31a93858c2"
+    },
+    {
+      "path": "data/models/m5-ppo-mlp_hierarchy.zip",
+      "bytes": 1241489,
+      "sha256": "02e128e88c8f87976ebda425f3442836e1d4ca4613e5fabbb83743aa61672d27"
+    },
+    {
+      "path": "data/models/m5-ppo-mlp_hierarchy_vecnorm.pkl",
+      "bytes": 4162,
+      "sha256": "6ff4ccc46363a4d7e0b951a6152684ad15b2179536ab632c4cb90119753d5309"
+    },
+    {
+      "path": "data/models/m5-ppo-mlp_serial.zip",
+      "bytes": 1139040,
+      "sha256": "3f9796d88ceebd7ba1479b8bd560872339e70671ef1a1b670206f3dd8b4ffe46"
+    },
+    {
+      "path": "data/models/m5-ppo-mlp_serial_vecnorm.pkl",
+      "bytes": 3454,
+      "sha256": "0f1f47a5dfb45bd02f6321932e296fb42865178aa9db3659443add735c124222"
+    },
+    {
+      "path": "data/models/ppo-mlp_base.zip",
+      "bytes": 1648105,
+      "sha256": "b1bfdc78b687829036f108feb3f808be90410cc12cb2bcf46e6c3b5b8c6173b2"
+    },
+    {
+      "path": "data/models/ppo-mlp_base_blind.zip",
+      "bytes": 350144,
+      "sha256": "d5f639a053df4ab2e449856508fd3aaa9296c944f5890165c0f835c3186dd6ae"
+    },
+    {
+      "path": "data/models/ppo-mlp_base_blind_vecnorm.pkl",
+      "bytes": 6958,
+      "sha256": "076f9c04f259d12772f9d0f43127b428a3b0dcb357d069975a16d928988c1bec"
+    },
+    {
+      "path": "data/models/ppo-mlp_base_obsraw.zip",
+      "bytes": 258240,
+      "sha256": "45453e68b3a9308fd03d59db334dbd63693273ddda172093bf41519adc65bbeb"
+    },
+    {
+      "path": "data/models/ppo-mlp_base_obsraw_vecnorm.pkl",
+      "bytes": 4534,
+      "sha256": "318ad345c067e62971728daf1ad8c0f78e0f4b46b3f7bbcdc5d9d28be2aaf9a8"
+    },
+    {
+      "path": "data/models/ppo-mlp_base_obsv1.zip",
+      "bytes": 289435,
+      "sha256": "02ea007da2b97ddfb0c9ea6f5f69a0e761d4849265cb5aa6f832257fd8462a17"
+    },
+    {
+      "path": "data/models/ppo-mlp_base_obsv1_vecnorm.pkl",
+      "bytes": 5362,
+      "sha256": "5c41e9bbbe8ec322f3bfa1da4cf8a0c63e95887bd1c11b0247cb8d657a4584f4"
+    },
+    {
+      "path": "data/models/ppo-mlp_base_vecnorm.pkl",
+      "bytes": 6958,
+      "sha256": "814c9f0551b8a01b0b0315414c844a15ab5d352ca4405cff956b8c0a92ecf8a3"
+    },
+    {
+      "path": "data/models/ppo-mlp_serial.zip",
+      "bytes": 1139025,
+      "sha256": "05ce1e854e865cce5180b8c6b6f7f8fb4e543e4f9bc3697acb7f4da7ec36bcd1"
+    },
+    {
+      "path": "data/models/ppo-mlp_serial_blind.zip",
+      "bytes": 215850,
+      "sha256": "08b0296307856430b2d3de5893e7f7f263c391cab8cf9d4ec4f0192ceaa2e1ee"
+    },
+    {
+      "path": "data/models/ppo-mlp_serial_blind_vecnorm.pkl",
+      "bytes": 3454,
+      "sha256": "645de2ef3b8d2d635b98e84cc140c283d2f0b6b9a28c8490093613c21a0a9206"
+    },
+    {
+      "path": "data/models/ppo-mlp_serial_obsv1.zip",
+      "bytes": 179105,
+      "sha256": "c582d78b2f499b65aebbf2b9c11d52af234845eaebfbb3cfebaa3246adb701f2"
+    },
+    {
+      "path": "data/models/ppo-mlp_serial_obsv1_vecnorm.pkl",
+      "bytes": 2473,
+      "sha256": "b8c9653a2334a667d4ba5c146a259b9bdf30798f4385f1327719bd50201e05bc"
+    },
+    {
+      "path": "data/models/ppo-mlp_serial_vecnorm.pkl",
+      "bytes": 3454,
+      "sha256": "3867d1ff251a4a49d79c0dd1f06e848c58218ab092e4e8d7bc9546c3459bc6d3"
+    },
+    {
+      "path": "data/models/ppo-transformer_base.zip",
+      "bytes": 6523068,
+      "sha256": "5aaa17fcd6686b40a41fa55e6367106107b1435a67cbac842f8d146d3d0591db"
+    },
+    {
+      "path": "data/models/ppo-transformer_base_blind.zip",
+      "bytes": 6523089,
+      "sha256": "b98fb92e36d66fb65aa55c0a545c3cc9ae35ba01e1d78cf1d1f94adaf1f8b00a"
+    },
+    {
+      "path": "data/models/ppo-transformer_base_blind_vecnorm.pkl",
+      "bytes": 6958,
+      "sha256": "f7b58583ec2560924c3ff2405d9546c79f91e248c83be3f1ce37a82eb65c88fa"
+    },
+    {
+      "path": "data/models/ppo-transformer_base_vecnorm.pkl",
+      "bytes": 6958,
+      "sha256": "5189c73ee52154151c288b63fe1ea294f8cba3e8b378effb56666438efb41c48"
+    },
+    {
+      "path": "data/models/ppo-transformer_serial.zip",
+      "bytes": 5741369,
+      "sha256": "3dc085c88e833e5d4b6e071ee064255b238809f4c226f20da351b08710a21f81"
+    },
+    {
+      "path": "data/models/ppo-transformer_serial_blind.zip",
+      "bytes": 5741377,
+      "sha256": "e102e6dffe86f91a837a247c83799da923855b9269d45d892210374bcdc01b21"
+    },
+    {
+      "path": "data/models/ppo-transformer_serial_blind_vecnorm.pkl",
+      "bytes": 3454,
+      "sha256": "e9f016aad5b632f88f9787751bb975c47b47082114f9f08a6b213c613048d377"
+    },
+    {
+      "path": "data/models/ppo-transformer_serial_vecnorm.pkl",
+      "bytes": 3454,
+      "sha256": "5652a3cd02555a189d6347fe7433b7089b57445ab1899a63e9a7583e6d25ca1f"
+    },
+    {
+      "path": "data/models/ppo_gnn_dagger_base_blind_best.zip",
+      "bytes": 2497821,
+      "sha256": "4599d7d9b7301722c06cbbe4aa72f487f8c5cb5d29f3839d40c0b146beb50f74"
+    },
+    {
+      "path": "data/models/ppo_gnn_dagger_best.zip",
+      "bytes": 2497821,
+      "sha256": "bad93d083fd9b3d3d245db27c5a321aa6a3fce09323cbc82629b8161932a488e"
+    },
+    {
+      "path": "data/models/ppo_gnn_dagger_serial_best.zip",
+      "bytes": 2038667,
+      "sha256": "ef71defc542ba738e4266b01e66c486ad8952d58fab21e0c1cf576d83a0c82b6"
+    },
+    {
+      "path": "data/models/ppo_gnn_dagger_serial_blind_best.zip",
+      "bytes": 2038667,
+      "sha256": "38e125ecbc9151c5ae024e6848a904ccf76d1a7cc298e6cd701262ad2d01f5db"
+    },
+    {
+      "path": "data/models/ppo_gnn_il_best.zip",
+      "bytes": 3721776,
+      "sha256": "f0fbbd4251a25cdcb1bb554be3ba43fb2b052762d6c7f6c440562d906ea3a4c8"
+    },
+    {
+      "path": "data/models/ppo_gnn_il_serial_best.zip",
+      "bytes": 3027859,
+      "sha256": "dc5f3a9ab4a1a3ad3d584e51249dbf7f3fa328e047499504da6b574f45b0ff6b"
+    },
+    {
+      "path": "data/models/residual_base.zip",
+      "bytes": 2881820,
+      "sha256": "92ab4389d8e8b12a01fd56d144abed20f2f406d842d3e3706ff846718eb07aba"
+    },
+    {
+      "path": "data/models/residual_base_blind.zip",
+      "bytes": 2881826,
+      "sha256": "142e3ee714bbe4e96f305c438029589bc3fafae0b8e6afe456ec69af3fbd211a"
+    },
+    {
+      "path": "data/models/residual_base_blind_vecnorm.pkl",
+      "bytes": 8008,
+      "sha256": "eca0b2939999b9ae576a0032f317df76b3341a9b1e4af9f272c624bb4828cfa6"
+    },
+    {
+      "path": "data/models/residual_base_vecnorm.pkl",
+      "bytes": 8008,
+      "sha256": "7cbbea3dccd5a7bba4e24f9ad62e3ca33df201080b2da3b6c97eea8edb2da214"
+    },
+    {
+      "path": "data/models/residual_serial.zip",
+      "bytes": 1295556,
+      "sha256": "8ee89d2b8a7c100e9d3f8e9a83da65846b02d9fa92e8884f848594bca00618a5"
+    },
+    {
+      "path": "data/models/residual_serial_blind.zip",
+      "bytes": 1295562,
+      "sha256": "1aab2c5912d3d3671a519977b2b05b93c0708da2c31d0107f07c8e9d6d2203ec"
+    },
+    {
+      "path": "data/models/residual_serial_blind_vecnorm.pkl",
+      "bytes": 3160,
+      "sha256": "d58bf12d3d26bd32a0ed194018818701eb52141e6691e04c32507dc7b59c7fe9"
+    },
+    {
+      "path": "data/models/residual_serial_vecnorm.pkl",
+      "bytes": 3160,
+      "sha256": "7c85c48c19f2d7a19311bca1a38467e6508bae268b223a4f34472efbdc4d3628"
+    },
+    {
+      "path": "data/models/sac_base.zip",
+      "bytes": 4579939,
+      "sha256": "bbb154f2ec92a7e75e127d3f76ea784151aca55ade701ea46396fbd5689ad21c"
+    },
+    {
+      "path": "data/models/sac_base_blind.zip",
+      "bytes": 4579945,
+      "sha256": "b67111ec9187316a052eb202039ee5f25c670810598de6a7d5a13b0219b04ced"
+    },
+    {
+      "path": "data/models/sac_base_blind_vecnorm.pkl",
+      "bytes": 7153,
+      "sha256": "71453d23273a10398a5c9ae13c1d8da001be52f55b04329512360a18f2c68286"
+    },
+    {
+      "path": "data/models/sac_base_vecnorm.pkl",
+      "bytes": 7154,
+      "sha256": "138e6ceaf223a4c0662aa3ddaacf11815276b2e7a8ba46ccf16cf90d6b9d9dd0"
+    },
+    {
+      "path": "data/models/sac_serial.zip",
+      "bytes": 3558860,
+      "sha256": "ff2ec2e0fe549156b3b2e0da43bd87c25c1c3006b563006933bce036f2237b0e"
+    },
+    {
+      "path": "data/models/sac_serial_blind.zip",
+      "bytes": 3558866,
+      "sha256": "f95f50249792077ab14c787c73825a7aa8b61dc6824df3d498c638ce3605054a"
+    },
+    {
+      "path": "data/models/sac_serial_blind_vecnorm.pkl",
+      "bytes": 3650,
+      "sha256": "c25cdd9f4f3219f490aad67083730023ed4b238ef644a1fc531ed2c0cf8ef8e0"
+    },
+    {
+      "path": "data/models/sac_serial_vecnorm.pkl",
+      "bytes": 3649,
+      "sha256": "224f95b2ed8a86325bcbb9c73075988a37959b3613384b4bbf77fb762d626bb2"
+    },
+    {
+      "path": "data/models/st-ppo_base.zip",
+      "bytes": 6551434,
+      "sha256": "7c5adbf096262d5ff24bab95cbef37fb0685a860ba0f16a0de6990851ada0080"
+    },
+    {
+      "path": "data/models/st-ppo_base_blind.zip",
+      "bytes": 6551455,
+      "sha256": "3a329a546dc3064667a672bab18df11fe6854e713314b0e5d9a968c6fdd19082"
+    },
+    {
+      "path": "data/models/st-ppo_base_blind_vecnorm.pkl",
+      "bytes": 23226,
+      "sha256": "e86392b7180e5889ebc3aaa01e5d48ea95ae69f9bfed5ebe809f082c34b455e6"
+    },
+    {
+      "path": "data/models/st-ppo_base_vecnorm.pkl",
+      "bytes": 23226,
+      "sha256": "32082e607b056ac5dfc46808e6f4f1aeec820b70d03156181edc7834870372d8"
+    },
+    {
+      "path": "data/models/st-ppo_serial.zip",
+      "bytes": 5754875,
+      "sha256": "72d54c9f080d658f1f8c5e9b4e5826bd3addd9536e2af4a9ccfc72a18bc505c3"
+    },
+    {
+      "path": "data/models/st-ppo_serial_blind.zip",
+      "bytes": 5754896,
+      "sha256": "cb406de3069c32b8af1cde45250e75a871f2d3c61a099f1c1eb650ca6827e296"
+    },
+    {
+      "path": "data/models/st-ppo_serial_blind_vecnorm.pkl",
+      "bytes": 9628,
+      "sha256": "82e36de306b0c15d4e7412aea7600421b1c549b0de8bc6f2e32745f4a2857214"
+    },
+    {
+      "path": "data/models/st-ppo_serial_vecnorm.pkl",
+      "bytes": 9628,
+      "sha256": "2d168c29ce095d28147388fa3ec2654e923cdde135761d632a471cd3ecb469f3"
+    },
+    {
+      "path": "data/models/vec_normalize_gnn_dagger.pkl",
+      "bytes": 5864,
+      "sha256": "6d7a48b0b70777b4534ed6fb2fe1c22d524ab183cdb88af9da531875f645234e"
+    },
+    {
+      "path": "data/models/vec_normalize_gnn_dagger_base_blind.pkl",
+      "bytes": 5864,
+      "sha256": "6d7a48b0b70777b4534ed6fb2fe1c22d524ab183cdb88af9da531875f645234e"
+    },
+    {
+      "path": "data/models/vec_normalize_gnn_dagger_serial.pkl",
+      "bytes": 3000,
+      "sha256": "c69145e0efd34296e22fc939e5a74fedc354e2fc0fc98941885b9d87462696d8"
+    },
+    {
+      "path": "data/models/vec_normalize_gnn_dagger_serial_blind.pkl",
+      "bytes": 3000,
+      "sha256": "c69145e0efd34296e22fc939e5a74fedc354e2fc0fc98941885b9d87462696d8"
+    },
+    {
+      "path": "data/models/vec_normalize_gnn_il.pkl",
+      "bytes": 6958,
+      "sha256": "70f9f9912fe9836598a4d1808e3153c1e38528fd84d4af31c7c5b4b96b91eeb3"
+    },
+    {
+      "path": "data/models/vec_normalize_gnn_il_serial.pkl",
+      "bytes": 3454,
+      "sha256": "2edd52f09297f3c19c3db2eec8c2faf4663432de7dc79f0fd8e07025a84d43c0"
+    }
+  ]
+}

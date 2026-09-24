@@ -1,0 +1,9 @@
+checkpoints/*.pt
+training_logs/*
+!training_logs/.gitkeep
+experiment_archive/
+results/cache_v2/bench_FBiT.csv
+results/benchmark_with_fbit.csv
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
